@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple number guessing game</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400;500;600&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- JS -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h1> Simple number guessing game</h1>
+    <p>I have selected a random number between 1 and 1000. See if you can guess it in 10 turns or fewer.</p>
+    <h2>How to play the game:</h2>
+
+    <ol>
+        <li>Type your guess (number between 1 and 1000) into the field after "Enter a guess"</li>
+        <li>Click on the button "Submit guess"</li>
+        <li>I will tell
+            you if your guess was too high or too low</li>
+    </ol>
+
+    <p class="tip">It is
+        possible
+        to guess the correct number in 7 turns.</p>
+
+    <p class="bold"> Good luck!</p>
+
+
+    <div class="form">
+        <label for="guessField">Enter a guess: </label>
+        <input type="number" min="1" max="1000" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+        <p class="numberPrintedOut"></p>
+        <p class="showGuessCount"></p>
+    </div>
+</body>
+
+</html>
