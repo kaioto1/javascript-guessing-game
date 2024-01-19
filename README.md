@@ -6,7 +6,7 @@ First of all, it shows the player if the number the user has entered into the fi
 
 ## 💡 My learnings from this project
 - How to use Git and what can go wrong when using it
-- What let and const is and what the differences are
+- What let and const are and what the differences are between both of them
 - How to use the Math.random() and focus() method
 - How to use functions
-- How to use if/else and for loops statements
+- How to use if/else statements and for loops 
